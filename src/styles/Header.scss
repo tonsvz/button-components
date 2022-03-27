@@ -1,0 +1,49 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .header-title{
+        margin-top: 40px;
+        font-size: 11px;
+        font-weight: bold;
+        height: 20%;
+        color: #fff;
+        text-align: center;
+        
+        span{
+            color: #F7542E;
+        }
+
+        h1{
+            color: #4F4F4F;
+
+        }
+    }
+
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        font-family: 'Noto Sans JP', sans-serif;
+        
+        a{
+            text-decoration: none;
+            color: #9E9E9E;
+            font-weight: 500;
+        }
+
+        .bold{
+            font-weight: 700;
+            color: #090F31;
+        }
+    }
+}

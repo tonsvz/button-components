@@ -1,0 +1,152 @@
+.button-description p{
+    font-size: 13px;
+    margin-bottom: 12px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+}
+
+.hover-text{
+    color: #828282;
+}
+
+
+.base{
+    padding:10px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+
+.classic{
+    background-color: #E0E0E0;
+    border: none;
+    color: #3F3F3F;
+}
+
+.hover1{
+    background-color: #AEAEAE;;
+    border:none;
+    color: #3F3F3F;
+    transition: 300ms ease-in;
+}
+
+.hover1:hover{
+    background-color: #09a2da;
+    border:none;
+    color: #fff;
+    transform: scale(1.1);
+
+}
+
+.outline{
+    border:1px solid #3D5AFE;
+    color: #3D5AFE;
+    background-color: #fff;
+}
+
+.hover2{
+    border:1px solid #3D5AFE;
+    color: #3D5AFE;
+    background-color:  rgba(41, 98, 255, 0.1);
+    transition: 300ms ease-in;
+    
+
+}
+
+.hover2:hover{
+    background-color: #09da7f;
+    border:none;
+    color: #fff;
+    border: 1px solid #09da7f;
+    transform: scale(1.1);
+}
+
+
+.text{
+    color: #3D5AFE;
+    border: none;
+    background-color: #fff;
+}
+
+.hover3{
+    color: #3D5AFE;
+    background-color:  rgba(41, 98, 255, 0.1);
+    border: none;
+}
+
+.hover4{
+    border:1px solid #9E9E9E;
+    color: #fff;
+    background-color:  #3F3F3F;
+    transition: 300ms ease-in;
+
+}
+
+.hover4:hover{
+    background-color: #da09c9ec;
+    border:none;
+    border: 1px solid #da09c9ec;
+    transform: scale(1.1);
+}
+
+.disableShadow{
+background-color: #3D5AFE;
+color: #fff;
+border: none;
+box-shadow: 3px 3px rgb(181, 178, 178);
+transition: 300ms ease-in;
+
+}
+
+.removeShadow{
+box-shadow: none;
+
+}
+
+.disabled{
+    background-color: #E0E0E0;;
+    color: #9E9E9E;
+    pointer-events: none;
+    border: none;
+}
+
+.text-disabled{
+    background-color: #fff;
+    color: #9E9E9E;
+    pointer-events: none;
+    border: none;
+}
+
+.grocery-store-start,.grocery-store-end{
+    background-color: #3D5AFE;
+    color: #fff;
+    border: none;
+    padding:10px 30px;
+}
+
+.sm-btn, .md-btn,.lg-btn{
+    background-color: #3D5AFE;
+    color: #fff;
+    border: none;
+}
+
+.sm-btn{
+    padding:6px 15px;
+}
+
+.lg-btn{
+    padding: 16px 28px;
+}
+
+.danger{
+    background-color: #D32F2F;
+    color: #fff;
+    border: none;
+}
+
+.danger-no-text{
+    background-color: #9A0007;
+    color: #fff;
+    border: none;
+}
